@@ -1,416 +1,159 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="ko">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<title>Directo — The Gateway</title>
-<!--[if mso]>
-<noscript><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml></noscript>
-<![endif]-->
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap');
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directo · Newsletter Archive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #faf9f7;
+      color: #111;
+      min-height: 100vh;
+    }
+
+    .header {
+      text-align: center;
+      padding: 64px 20px 48px;
+      border-bottom: 1px solid rgba(0,0,0,0.07);
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+    }
+
+    .bar {
+      width: 32px;
+      height: 1px;
+      background: #c9a96e;
+      margin: 16px auto;
+    }
+
+    .subtitle {
+      font-size: 10px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: rgba(0,0,0,0.4);
+    }
+
+    .archive {
+      max-width: 860px;
+      margin: 60px auto;
+      padding: 0 32px;
+    }
+
+    .section-label {
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: rgba(0,0,0,0.35);
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid rgba(0,0,0,0.09);
+      padding: 36px 28px 30px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      border-color: #c9a96e;
+      box-shadow: 0 2px 20px rgba(201,169,110,0.08);
+    }
+
+    .card-tag {
+      font-size: 9px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #c9a96e;
+      margin-bottom: 16px;
+    }
+
+    .card-month {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .card-year {
+      font-size: 12px;
+      color: rgba(0,0,0,0.38);
+      letter-spacing: 0.08em;
+      margin-bottom: 22px;
+    }
+
+    .card-desc {
+      font-size: 11.5px;
+      color: rgba(0,0,0,0.52);
+      line-height: 1.75;
+      margin-bottom: 26px;
+    }
+
+    .card-cta {
+      font-size: 9px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #111;
+      border-bottom: 1px solid #c9a96e;
+      padding-bottom: 2px;
+      display: inline-block;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid rgba(0,0,0,0.06);
+      font-size: 10px;
+      color: rgba(0,0,0,0.3);
+      letter-spacing: 0.12em;
+    }
+  </style>
 </head>
-<body style="margin:0;padding:0;background:#ffffff;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#ffffff;">
-<tr><td align="center">
-<table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" style="width:640px;max-width:640px;">
+<body>
 
-<!-- HERO -->
-<tr>
-  <td style="padding:0;margin:0;font-size:0;line-height:0;">
-    <!--[if gte mso 9]>
-    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:400px;">
-    <v:fill type="frame" src="https://musercompany.cafe24.com/Directo%20image/MONTEGRAPPA%20(2).jpg" color="#080810"/>
-    <v:textbox style="mso-fit-shape-to-text:false;" inset="0,0,0,0">
-    <![endif]-->
-    <table role="presentation" width="640" cellpadding="0" cellspacing="0" border="0"
-      style="background-image:url('https://musercompany.cafe24.com/Directo%20image/MONTEGRAPPA%20(2).jpg');background-size:cover;background-position:center 30%;background-color:#080810;height:400px;">
-      <tr>
-        <td height="120" style="font-size:0;line-height:0;">&nbsp;</td>
-      </tr>
-      <tr>
-        <td valign="bottom" style="background:linear-gradient(to top,rgba(5,5,12,0.92) 0%,transparent 100%);padding:40px 52px 48px;">
-          <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:24px;">
-            <tr>
-              <td style="padding-right:14px;vertical-align:middle;">
-                <img src="https://musercompany.cafe24.com/Directo%20image/%EB%94%94%EB%A0%89%ED%86%A0%20%EB%A1%9C%EA%B3%A0_%EC%84%A0%EB%AA%85_%ED%99%94%EC%9D%B4%ED%8A%B8.png" width="44" height="44" alt="Directo" style="display:block;filter:brightness(0) invert(1);"/>
-              </td>
-              <td style="font-family:'Inter',Arial,sans-serif;font-size:11px;letter-spacing:0.32em;color:rgba(255,255,255,0.55);text-transform:uppercase;vertical-align:middle;">Directo</td>
-            </tr>
-          </table>
-          <p style="margin:0 0 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:500;">Korea's Premium Niche Marketplace</p>
-          <p style="margin:0 0 16px;font-family:'Cormorant Garamond',Georgia,serif;font-size:48px;font-weight:300;color:#ffffff;line-height:1.08;">Your Online<br>Shop-in-Shop<br><em style="font-style:italic;color:#c9a96e;">in Korea.</em></p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:0.18em;text-transform:uppercase;padding-left:14px;border-left:1.5px solid #c9a96e;">Only Sustainable Growth.</p>
-        </td>
-      </tr>
-    </table>
-    <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
-  </td>
-</tr>
+<div class="header">
+  <div class="logo">Directo</div>
+  <div class="bar"></div>
+  <div class="subtitle">Brand Newsletter Archive</div>
+</div>
 
-<!-- GOLD LINE -->
-<tr><td height="1" style="background:#c9a96e;font-size:1px;line-height:1px;">&nbsp;</td></tr>
+<div class="archive">
+  <div class="section-label">발행된 뉴스레터</div>
 
-<!-- MONT STRIP -->
-<tr>
-  <td style="background:#0d0d14;padding:14px 52px;border-bottom:1px solid rgba(201,169,110,0.2);">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td style="font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:600;white-space:nowrap;padding-right:16px;vertical-align:middle;">Featured Brand</td>
-        <td style="font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;font-style:italic;width:100%;vertical-align:middle;">Montegrappa — <span style="color:rgba(255,255,255,0.45);font-style:normal;font-size:11px;font-family:'Inter',Arial,sans-serif;">Luxury Fountain Pens · Italy · Since 1912 · The world's oldest Italian pen manufacturer</span></td>
-        <td style="white-space:nowrap;padding-left:16px;vertical-align:middle;"><a href="https://directo.co.kr" style="font-family:'Inter',Arial,sans-serif;font-size:10px;color:#c9a96e;text-decoration:none;letter-spacing:0.1em;">Discover →</a></td>
-      </tr>
-    </table>
-  </td>
-</tr>
+  <div class="grid">
 
-<!-- INTRO -->
-<tr>
-  <td style="background:#faf9f7;padding:0;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="320" valign="top" style="padding:40px 28px 40px 52px;">
-          <p style="margin:0 0 12px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Directo — Seoul</p>
-          <p style="margin:0 0 14px;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:300;color:#111;line-height:1.25;">The world's finest brands,<br>now in Korea.</p>
-          <p style="margin:0 0 10px;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#666;line-height:1.85;">A curated marketplace bringing the world's most innovative, niche and premium international brands to Korea — with bigger things on the horizon.</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#666;line-height:1.85;">From niche to iconic. We don't follow trends. We set them.</p>
-        </td>
-        <td width="320" valign="bottom"
-          background="https://musercompany.cafe24.com/Directo%20image/HAAITZA2.jpg"
-          style="background-image:url('https://musercompany.cafe24.com/Directo%20image/HAAITZA2.jpg');background-size:cover;background-position:center;min-height:260px;">
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-            <tr>
-              <td style="background:linear-gradient(to top,rgba(0,0,0,0.65) 0%,transparent 100%);padding:12px;">
-                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td style="padding-right:8px;vertical-align:middle;">
-                      <img src="https://latelierrosie.fr/wp-content/uploads/2022/06/logo-atelier_rosie.png" width="40" height="40" alt="L'Atelier Rosie" style="display:block;background:#fff;border-radius:4px;padding:2px;"/>
-                    </td>
-                    <td valign="middle">
-                      <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:10px;font-weight:600;color:#fff;letter-spacing:0.08em;">Handcrafted Cutlery</p>
-                      <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.6);font-style:italic;">© L'Atelier Rosie</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
+    <!-- ★ 다음달 추가 시: 아래 카드 블록 하나를 복사해서 위에 붙여넣고 내용만 수정 -->
 
-<!-- STEPS -->
-<tr>
-  <td style="background:#fff;padding:44px 52px;">
-    <p style="margin:0 0 36px;font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:300;color:#111;text-align:center;line-height:1.2;">Your Structured Entry<br>into Korea</p>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="48%" valign="top" style="border-top:1px solid #e0dbd3;padding-top:14px;padding-right:20px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Step 01</p>
-          <p style="margin:0 0 5px;font-family:'Inter',Arial,sans-serif;font-size:14px;font-weight:600;color:#111;">Setup &amp; Entry</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#888;line-height:1.7;">Full operational &amp; digital setup with dedicated brand pages. Live within 10 days of signing.</p>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="border-top:1px solid #e0dbd3;padding-top:14px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Step 02</p>
-          <p style="margin:0 0 5px;font-family:'Inter',Arial,sans-serif;font-size:14px;font-weight:600;color:#111;">Localization</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#888;line-height:1.7;">Korean translation and market-adapted messaging for optimal positioning.</p>
-        </td>
-      </tr>
-      <tr><td colspan="3" height="18">&nbsp;</td></tr>
-      <tr>
-        <td width="48%" valign="top" style="border-top:1px solid #e0dbd3;padding-top:14px;padding-right:20px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Step 03</p>
-          <p style="margin:0 0 5px;font-family:'Inter',Arial,sans-serif;font-size:14px;font-weight:600;color:#111;">Direct Distribution</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#888;line-height:1.7;">We ship from your country directly to the Korean customer's door — no intermediaries.</p>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="border-top:1px solid #e0dbd3;padding-top:14px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Step 04</p>
-          <p style="margin:0 0 5px;font-family:'Inter',Arial,sans-serif;font-size:14px;font-weight:600;color:#111;">Visibility</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#888;line-height:1.7;">Naver (Korea's #1 search engine) · Kakao (Korea's #1 messaging app) · Instagram · YouTube</p>
-        </td>
-      </tr>
-      <tr><td colspan="3" height="18">&nbsp;</td></tr>
-      <tr>
-        <td colspan="3" valign="top" style="border-top:1px solid #e0dbd3;padding-top:14px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Step 05</p>
-          <p style="margin:0 0 5px;font-family:'Inter',Arial,sans-serif;font-size:14px;font-weight:600;color:#111;">Brand Protection</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:12px;color:#888;line-height:1.7;">Strict no-discount policy. Your brand equity and long-term positioning are preserved at all times.</p>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
+    <a class="card" href="./2026-05/">
+      <div class="card-tag">Newsletter</div>
+      <div class="card-month">May</div>
+      <div class="card-year">2026</div>
+      <div class="card-desc">이달의 신규 입점 브랜드 및<br>디렉토 주요 소식</div>
+      <span class="card-cta">View Newsletter</span>
+    </a>
 
-<!-- BRANDS -->
-<tr>
-  <td style="background:#0d0d14;padding:44px 52px;">
-    <p style="margin:0 0 8px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:600;">A Selection of Brands</p>
-    <p style="margin:0 0 6px;font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:300;color:#fff;line-height:1.2;">A curated world,<br>brought to Korea.</p>
-    <p style="margin:0 0 28px;font-family:'Inter',Arial,sans-serif;font-size:12px;color:rgba(255,255,255,0.35);font-style:italic;">A glimpse of the 100+ brands you will discover on directo.co.kr</p>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://musercompany.cafe24.com/Directo%20image/Ralf%20tech%20(33).jpg" width="174" height="140" alt="Ralf Tech" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Ralf Tech</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Watches · France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Tested in zero gravity. Aerospace-grade titanium. Limited edition.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://www.jielde.com/cdn/shop/files/audelemaitrephotographe-jielde75ans-web-122.jpg?v=1750156236&width=1200" width="174" height="140" alt="Jieldé" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Jieldé</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Lighting · Lyon, France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Iconic industrial lamps since 1950. Original French design.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://directo.co.kr/web/upload/category/shop1_611_top_404650.jpg" width="174" height="140" alt="Leblon Delienne" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Leblon Delienne</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Pop Sculpture · France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Collectible pop sculptures. Bold, playful, handcrafted.</p>
-          </td></tr></table>
-        </td>
-      </tr>
-    </table>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;">
-      <tr>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://directo.co.kr/web/upload/category/shop1_530_top_337705.png" width="174" height="140" alt="Claude Dozorme" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Claude Dozorme</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Laguiole · France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Legendary Laguiole knives. Handmade in France.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://www.grittifragrances.com/cdn/shop/files/HeroChantilly.png?v=1769589186&width=1000" width="174" height="140" alt="Gritti" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Gritti</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Niche Perfume · Venice</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Venetian niche perfumery. Rare and precious raw materials.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://www.lesnereides.com/cdn/shop/files/MAISON-6G8A3820._retouchejpg.jpg?v=1708204671&width=2400" width="174" height="140" alt="Les Néréides" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Les Néréides</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Jewelry · France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">High Fantasy jewelry. Enchanting enamel handcrafted pieces.</p>
-          </td></tr></table>
-        </td>
-      </tr>
-    </table>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:6px;">
-      <tr>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://directo.co.kr/web/upload/category/shop1_263_top_242120.jpg" width="174" height="140" alt="Blanc des Vosges" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Blanc des Vosges</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Luxury Linen · France · 1843</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Premium French bed linen. Exceptional prints since 1843.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://directo.co.kr/web/upload/category/shop1_619_top_508946.jpg" width="174" height="140" alt="La Savonnerie Royale" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">La Savonnerie Royale</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Beauty · Versailles</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Royal-inspired beauty rituals from Versailles.</p>
-          </td></tr></table>
-        </td>
-        <td width="6" style="background:#0d0d14;">&nbsp;</td>
-        <td width="174" valign="top" style="border:1px solid rgba(255,255,255,0.07);">
-          <img src="https://directo.co.kr/web/product/extra/big/202511/bbcec2c2c2b087365de3c49371c25d17.png" width="174" height="140" alt="Sarah Linda" style="display:block;width:174px;height:140px;object-fit:cover;"/>
-          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:rgba(255,255,255,0.03);"><tr><td style="padding:12px 14px;">
-            <p style="margin:0 0 2px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#fff;">Sarah Linda</p>
-            <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;color:rgba(255,255,255,0.3);letter-spacing:0.12em;text-transform:uppercase;">Ceramics · France</p>
-            <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;">Iridescent shell-inspired ceramic tableware. Ocean-born, handcrafted in France.</p>
-          </td></tr></table>
-        </td>
-      </tr>
-    </table>
-    <p style="margin:18px 0 0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.25);text-align:center;font-style:italic;">A glimpse of the 100+ brands you will discover on directo.co.kr</p>
-  </td>
-</tr>
+  </div>
+</div>
 
-<!-- STRATEGY -->
-<tr>
-  <td style="background:#faf9f7;padding:44px 52px;">
-    <p style="margin:0 0 8px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Why Directo</p>
-    <p style="margin:0 0 28px;font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:300;color:#111;line-height:1.25;">A complete ecosystem<br>for your brand in Korea.</p>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">01 · Digital</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">Naver SEO &amp; Power Link</p>
-          <p style="margin:0 0 12px;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">Full SEO optimisation + paid exposure on Korea's #1 search engine at key purchasing moments.</p>
-          <a href="https://search.naver.com/search.naver?query=디렉토" style="display:inline-block;background:#fff;border:1px solid #e0dbd3;padding:6px 10px;border-radius:6px;text-decoration:none;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#333;font-weight:500;">Naver Search →</a>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">02 · Editorial</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">The Edit &amp; Korean Webzines</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">Editorial content on Directo + dedicated articles in top Korean lifestyle media.</p>
-        </td>
-      </tr>
-      <tr><td colspan="3" height="14">&nbsp;</td></tr>
-      <tr>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">03 · Social</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">Instagram · YouTube · Kakao</p>
-          <p style="margin:0 0 10px;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">Daily content, 3 Reels/week, Kakao Channel + YouTube with proven traction from beauty specialists.</p>
-          <table cellpadding="0" cellspacing="4" border="0">
-            <tr>
-              <td><a href="https://www.instagram.com/directo_shop" style="display:inline-block;background:#fff;border:1px solid #e0dbd3;padding:5px 8px;border-radius:6px;text-decoration:none;font-family:'Inter',Arial,sans-serif;font-size:10px;color:#333;">@directo_shop</a></td>
-              <td><a href="https://www.youtube.com/@directo_official" style="display:inline-block;background:#fff;border:1px solid #e0dbd3;padding:5px 8px;border-radius:6px;text-decoration:none;font-family:'Inter',Arial,sans-serif;font-size:10px;color:#333;">YouTube</a></td>
-              <td><a href="http://pf.kakao.com/_KDhxfd" style="display:inline-block;background:#fff;border:1px solid #e0dbd3;padding:5px 8px;border-radius:6px;text-decoration:none;font-family:'Inter',Arial,sans-serif;font-size:10px;color:#333;">Kakao</a></td>
-            </tr>
-          </table>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">04 · Physical</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">Seoul Showroom</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">A dedicated discovery space in Seoul, frequented by influencers, YouTubers and industry professionals.</p>
-        </td>
-      </tr>
-      <tr><td colspan="3" height="14">&nbsp;</td></tr>
-      <tr>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">05 · B2B</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">Importers &amp; Grand Comptes</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">Direct sourcing of importers, multi-brand shops and major department stores across Korea.</p>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="background:#fff;border:1px solid #e0dbd3;padding:16px 18px;">
-          <p style="margin:0 0 6px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">06 · TV</p>
-          <p style="margin:0 0 4px;font-family:'Inter',Arial,sans-serif;font-size:13px;font-weight:600;color:#111;">Home Shopping &amp; Live Streaming</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#888;line-height:1.6;">Access to Korean TV home shopping channels with celebrity presenters + brand live streaming.</p>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
+<div class="footer">© 2026 Directo · Korea's Premium Niche Marketplace</div>
 
-<!-- TRACK RECORD -->
-<tr>
-  <td style="background:#fff;padding:36px 52px;">
-    <p style="margin:0 0 24px;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:300;color:#111;text-align:center;">Our Track Record</p>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td width="48%" valign="top" style="border-top:2px solid #c9a96e;padding-top:14px;padding-right:20px;">
-          <p style="margin:0 0 8px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">25+ Years · B2B Asia</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:13px;color:#444;line-height:1.7;">Import/export expertise and subsidiaries across Asia. Over 100 brands accompanied in beauty, fashion, luxury and gastronomy.</p>
-        </td>
-        <td width="4%">&nbsp;</td>
-        <td width="48%" valign="top" style="border-top:2px solid #c9a96e;padding-top:14px;">
-          <p style="margin:0 0 8px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.2em;color:#c9a96e;text-transform:uppercase;font-weight:700;">9 Years · B2C Seoul</p>
-          <p style="margin:0;font-family:'Inter',Arial,sans-serif;font-size:13px;color:#444;line-height:1.7;">With over 9 years of expertise, we enable international brands to enter and scale in Korea through a curated premium marketplace — driving both sales and high-impact visibility. <a href="https://www.directo.co.kr" style="color:#c9a96e;text-decoration:none;">www.directo.co.kr</a></p>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<!-- MAP SECTION -->
-<tr>
-  <td style="background:#0d0d14;padding:44px 52px;">
-    <p style="margin:0 0 8px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#c9a96e;text-transform:uppercase;font-weight:600;">Direct Distribution</p>
-    <p style="margin:0 0 4px;font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:300;color:#fff;">Shipped from <em style="font-style:italic;color:#c9a96e;">everywhere.</em><br>Delivered to Korea.</p>
-    <p style="margin:0 0 22px;font-family:'Inter',Arial,sans-serif;font-size:11px;color:rgba(255,255,255,0.35);">From your country directly to the Korean customer's door — no intermediaries, no delays.</p>
-    <img src="https://musercompany.cafe24.com/Directo%20image/map_animation.gif" width="536" alt="" style="display:block;width:100%;height:auto;border:1px solid rgba(255,255,255,0.05);"/>
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:18px;">
-      <tr>
-        <td align="center">
-          <table role="presentation" cellpadding="0" cellspacing="4" border="0">
-            <tr>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">United States</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">United Kingdom</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">France</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Germany</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Italy</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Japan</td>
-            </tr>
-            <tr><td colspan="6" height="4"></td></tr>
-            <tr>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Australia</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Austria</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Netherlands</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Spain</td>
-              <td style="border:1px solid #c9a96e;padding:6px 12px;font-family:'Inter',Arial,sans-serif;font-size:10px;letter-spacing:0.1em;color:#c9a96e;">Hong Kong</td>
-              <td style="border:2px solid #fff;padding:7px 18px;font-family:'Inter',Arial,sans-serif;font-size:12px;letter-spacing:0.16em;color:#fff;font-weight:700;">and More</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<!-- CATEGORIES -->
-<tr>
-  <td style="background:#fff;padding:36px 52px;text-align:center;">
-    <p style="margin:0 0 14px;font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.28em;color:#aaa;text-transform:uppercase;">Browse by Category on directo.co.kr</p>
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
-      <tr>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=312" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Perfume</a></td>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=476" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Gourmet &amp; Kitchen</a></td>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=495" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Beauty</a></td>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=643" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Art</a></td>
-      </tr>
-      <tr>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=585" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Watches</a></td>
-        <td style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=315" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Home &amp; Furniture</a></td>
-        <td colspan="2" style="padding:3px;"><a href="https://directo.co.kr/product/list.html?cate_no=316" style="display:inline-block;padding:7px 16px;border:1px solid #d0cbc4;font-family:'Inter',Arial,sans-serif;font-size:11px;color:#555;letter-spacing:0.06em;text-decoration:none;">Fashion &amp; Accessories</a></td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<!-- CTA -->
-<tr>
-  <td style="background:#c9a96e;padding:28px 52px;text-align:center;">
-    <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
-      <tr>
-        <td style="padding-right:12px;">
-          <a href="https://directo.co.kr/brandlist/list.html" style="display:inline-block;padding:14px 30px;background:#0d0d14;color:#fff;font-family:'Inter',Arial,sans-serif;font-size:11px;font-weight:600;text-decoration:none;letter-spacing:0.16em;text-transform:uppercase;">Explore All Brands →</a>
-        </td>
-        <td>
-          <a href="mailto:directo@muser-company.com" style="display:inline-block;padding:14px 30px;background:transparent;color:#fff;font-family:'Inter',Arial,sans-serif;font-size:11px;font-weight:600;text-decoration:none;letter-spacing:0.16em;text-transform:uppercase;border:2px solid rgba(255,255,255,0.65);">Contact Us →</a>
-        </td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-<!-- FOOTER -->
-<tr>
-  <td style="background:#080810;padding:20px 52px;">
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-      <tr>
-        <td style="font-family:'Inter',Arial,sans-serif;font-size:9px;letter-spacing:0.3em;color:#3a3a4a;text-transform:uppercase;">Directo — Korea's Premium Niche Marketplace</td>
-        <td align="right"><a href="https://directo.co.kr" style="font-family:'Inter',Arial,sans-serif;font-size:11px;color:#c9a96e;text-decoration:none;">directo.co.kr</a></td>
-      </tr>
-    </table>
-  </td>
-</tr>
-
-</table>
-</td></tr>
-</table>
 </body>
 </html>
